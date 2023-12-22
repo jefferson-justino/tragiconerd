@@ -1,0 +1,32 @@
+main{
+ padding-left: 15%;
+ padding-right: 15%;
+}
+.about{
+    color: #FF0000;
+}
+.aboutChanel{
+    display: flex;
+    margin-bottom: 5%;
+}
+.description{
+    color: white;
+    text-align: justify;
+}
+article{
+    justify-content: center;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.product{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.setupTitle{
+    color: #00A2FD;
+}
+.product:hover{
+    color: #00A2FD;
+}

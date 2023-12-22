@@ -1,0 +1,67 @@
+html{
+    background-color: #1a1919;
+}
+header{
+    background-color: #111111;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid #454545;
+}
+.image{
+    width: 50px;
+    height: 50px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.option{
+    color: #FF0000;
+}
+.title{
+    color: #FFF500;
+    font-size: 20px;
+}
+.wishList{
+    color: #00A2FD;
+    font-size: 20px;
+}
+header section{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+main{
+    padding-left: 15%;
+    padding-right: 15%;
+   }
+   .about{
+       color: #FF0000;
+   }
+   .aboutChanel{
+       display: flex;
+       margin-bottom: 5%;
+   }
+   .description{
+       color: white;
+       text-align: justify;
+   }
+   article{
+       justify-content: center;
+       margin-bottom: 5%;
+       display: flex;
+   }
+   
+   .product{
+       text-decoration: none;
+       color: white;
+       font-weight: bold;
+   }
+   .setupTitle{
+       color: #00A2FD;
+   }
+   .product:hover{
+       color: #00A2FD;
+   }
