@@ -2,11 +2,11 @@ import imageLogo from "../../img/logo transparente.png"
 import styles from'./main.module.css'
 
 export default function Main(){
-    let azul = 'about'
+   
     return(
         <main>
 
-            <h2 className={styles.about} id={azul} >Me Conheça</h2>
+            <h2 className={styles.about}  >Me Conheça</h2>
            <section className={styles.aboutChanel}>
             <h3 className={styles.description}>
                 Olá, você está visitando o site do nosso canal, mas já deve ter se perguntado, quem sou eu? 
