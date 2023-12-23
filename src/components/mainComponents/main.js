@@ -1,12 +1,14 @@
 import imageLogo from "../../img/logo transparente.png"
 import styles from'./main.module.css'
-
+import imginsta from '../../img/instagram.svg'
+import imgyout from '../../img/youtube.svg'
+import imgtik from '../../img/tik-tok.svg'
 export default function Main(){
    
     return(
         <main>
 
-            <h2 className={styles.about}  >Me Conheça</h2>
+            <h2 className={styles.about} id="about" >Me Conheça</h2>
            <section className={styles.aboutChanel}>
             <h3 className={styles.description}>
                 Olá, você está visitando o site do nosso canal, mas já deve ter se perguntado, quem sou eu? 
@@ -32,10 +34,17 @@ export default function Main(){
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                  allowfullscreen>
             </iframe>
-            </article>
 
+            </article>
+             <div className={styles.groupSection}>
+                <section>
+                    <h2 className={styles.redesTitle} id="redes">Minhas Redes Sociais</h2>
+                    <a href="https://www.youtube.com/@TragicoNerd" target="_blank" rel="noreferrer" className={styles.rede}> <img src={imgyout} alt="youtube"/> @TragicoNerd</a> <br></br>
+                    <a href="https://www.instagram.com/tragico_nerd/" target="_blank" rel="noreferrer" className={styles.rede} > <img src={imginsta} alt="instagram"/> @tragico_nerd </a> <br></br>
+                    <a href="https://www.tiktok.com/@tragiconerd" target="_blank" rel="noreferrer" className={styles.rede}> <img src={imgtik} alt="tik tok"/> @tragiconerd </a> <br></br>
+                </section>
                 <section className={styles.setup}>
-                    <h2 className={styles.setupTitle} id="about">Meu Setup</h2>
+                    <h2 className={styles.setupTitle} id="setup">Meu Setup</h2>
                        
                     <ul>
                         <a href="https://amzn.to/3tjjRCd" target="_blank" rel="noreferrer" className={styles.product}><li>Processador: I5 6600;</li></a>
@@ -50,7 +59,7 @@ export default function Main(){
                     </ul>
 
                 </section>
-
+                </div>
         </main>
 
     )

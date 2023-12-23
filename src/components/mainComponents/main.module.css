@@ -30,3 +30,16 @@ article{
 .product:hover{
     color: #00A2FD;
 }
+.groupSection{
+    display: flex;
+    gap: 80px;
+  
+    justify-content: center;
+}
+.redesTitle{
+    color: #00A2FD;
+}
+.rede{
+    text-decoration: none;
+    color: #FFF500;
+}

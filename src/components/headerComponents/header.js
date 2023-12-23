@@ -11,9 +11,10 @@ function Header() {
 
             <nav> 
                 <ul className={styles.list}>
-                    <a href="#about"  rel="noreferrer" > <li className={styles.option}>SOBRE</li></a>
-                    <a href="#jj" target="_blank"  > <li className={styles.option}>SETUP</li></a>
-                    <a href="#jj" target="_blank" > <li className={styles.option}>DOAR</li></a>
+                    <a href="#about"   > <li className={styles.option}>SOBRE</li></a>
+                    <a href="#setup"   > <li className={styles.option}>SETUP</li></a>
+                    <a href="#redes"  > <li className={styles.option}>REDES SOCIAIS</li></a>
+                    <a href="#jj"  > <li className={styles.option}>DOAR</li></a>
                 </ul> 
             </nav>
 
