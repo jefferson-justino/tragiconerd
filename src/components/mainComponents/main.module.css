@@ -4,6 +4,7 @@ main{
 }
 .about{
     color: #FF0000;
+    padding-top: 8%;
 }
 .aboutChanel{
     display: flex;
@@ -26,6 +27,7 @@ article{
 }
 .setupTitle{
     color: #00A2FD;
+    padding-top: 8%;
 }
 .product:hover{
     color: #00A2FD;
@@ -38,8 +40,12 @@ article{
 }
 .redesTitle{
     color: #00A2FD;
+    padding-top: 8%;
 }
 .rede{
     text-decoration: none;
     color: #FFF500;
+}
+.rede:hover{
+    color: #FF0000;
 }

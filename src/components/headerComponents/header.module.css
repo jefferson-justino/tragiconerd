@@ -34,3 +34,9 @@ header section{
 a{
     text-decoration: none;
 }
+.option:hover{
+    color: #00A2FD;
+}
+.wishList:hover{
+    color: #FFF500;
+}
