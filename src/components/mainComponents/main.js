@@ -3,6 +3,7 @@ import styles from'./main.module.css'
 import imginsta from '../../img/instagram.svg'
 import imgyout from '../../img/youtube.svg'
 import imgtik from '../../img/tik-tok.svg'
+import Doar from "../components independent/doar"
 export default function Main(){
    
     return(
@@ -60,6 +61,8 @@ export default function Main(){
 
                 </section>
                 </div>
+                    <Doar/>
+
         </main>
 
     )

@@ -1,0 +1,57 @@
+.support{
+    color: #FFF500;
+    padding-top: 10%;
+}
+p{
+    color: white;
+    text-align: justify;
+}
+.content{
+    display: flex;
+    gap: 50px;
+}
+.titleCard{
+    color: #00A2FD;
+}
+.cardSupport{
+    border: #00A2FD solid 1px;
+    padding: 2%;
+    border-radius: 20px;
+}
+.bot{
+    background-color:  #00A2FD;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    
+}
+section div a{
+    color: white;
+}
+.bot:hover{
+    background-color:  #FFF500;
+    animation: scaleUp 0.3s ease-in-out;
+
+}
+section div a:hover{
+     color: #00A2FD;
+}
+ 
+@keyframes scaleUp {
+    0% {
+     transform: scale(1);
+    }
+   
+    50% {
+     transform: scale(0.95);
+    }
+   
+    100% {
+     transform: scale(1);
+    }
+   }
+   
+
+   
+   

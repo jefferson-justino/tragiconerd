@@ -14,7 +14,7 @@ function Header() {
                     <a href="#about"   > <li className={styles.option}>SOBRE</li></a>
                     <a href="#setup"   > <li className={styles.option}>SETUP</li></a>
                     <a href="#redes"  > <li className={styles.option}>REDES SOCIAIS</li></a>
-                    <a href="#jj"  > <li className={styles.option}>DOAR</li></a>
+                    <a href="#support"  > <li className={styles.option}>APOIAR</li></a>
                 </ul> 
             </nav>
 
