@@ -38,6 +38,9 @@ article{
   
     justify-content: center;
 }
+.logo{
+    width: 350px;
+}
 .redesTitle{
     color: #00A2FD;
     padding-top: 30%;
@@ -48,4 +51,64 @@ article{
 }
 .rede:hover{
     color: #FF0000;
+}
+
+@media(max-width: 928px)
+{
+.logo{
+    width: 250px;
+}
+}
+@media(max-width: 750px)
+{
+    main{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+.logo{
+    width: 150px;
+}
+.about{
+    padding-top: 15%;
+}
+.redesTitle{
+
+    padding-top: 45%;
+}
+.setupTitle{
+    padding-top: 30%;
+}
+}
+
+@media(max-width: 692px)
+{
+    main{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+}
+@media(max-width: 506px)
+{
+   .groupSection{
+    gap: 10px;
+   }
+}
+@media(max-width: 446px)
+{
+   .groupSection{
+    flex-wrap: wrap;
+   }
+   .aboutChanel{
+    flex-wrap: wrap;
+   }
+   .logo{
+    width: 250px;
+   }
+}
+@media(max-width: 377px)
+{
+   .about{
+    padding-top: 30%;
+   }
 }

@@ -51,7 +51,18 @@ section div a:hover{
      transform: scale(1);
     }
    }
-   
-
+   @media(max-width: 750px)
+{
+    .support{
+       
+        padding-top: 15%;
+    }
+}
+@media(max-width: 506px)
+{
+   .content{
+    flex-wrap: wrap;
+   }
+}
    
    

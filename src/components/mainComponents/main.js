@@ -24,7 +24,7 @@ export default function Main(){
            
            
            <figure>
-           <img src={imageLogo} alt="Logo"/>
+           <img src={imageLogo} alt="Logo" className={styles.logo}/>
             
             </figure>
             </section>
