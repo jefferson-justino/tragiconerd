@@ -110,5 +110,8 @@ article{
 {
    .about{
     padding-top: 30%;
+   }main{
+    padding-left: 1%;
+    padding-right: 1%;
    }
 }
