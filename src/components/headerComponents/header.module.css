@@ -3,10 +3,7 @@ header{
     display: flex;
     justify-content: space-around;
     border-bottom: solid #454545;
-    position: fixed;
-    width: 100%;
-    margin-top: -3%;
-    padding-top: 2%;
+   
 }
 .image{
     width: 50px;
@@ -46,5 +43,13 @@ a{
    .option{
     display: none;
    }
+  
 }
-
+@media(min-width:692px){
+    header{
+        position: fixed;
+        width: 100%;
+        margin-top: -3%;
+        padding-top: 2%;
+    }
+}
