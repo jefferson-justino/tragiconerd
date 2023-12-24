@@ -1,0 +1,14 @@
+footer{
+    background-color: #131212;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    border-top: solid #454545;;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 50px;
+}
+footer pre{
+    color: white;
+}
