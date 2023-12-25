@@ -48,7 +48,8 @@ article{
 .rede{
     text-decoration: none;
     color: #FFF500;
-  
+    display: flex;
+    align-items: center;
 }
 .rede:hover{
     color: #FF0000;
