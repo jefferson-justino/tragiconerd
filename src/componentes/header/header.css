@@ -1,0 +1,39 @@
+h1{
+    color:#FF0000;
+  
+}
+
+.logo{
+    width:100px;
+   
+}
+header{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+  
+    background-color: #0a0a0a; /* Cor de fundo do header */
+    
+}
+.conteudo{
+    padding-top: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center; /* Alinha os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+   
+   
+
+}
+@media(max-width: 377px)
+{
+    .conteudo{
+        padding-top: 10px;
+        display: flex;
+        justify-content: center; /* Alinha os itens horizontalmente */
+        align-items: center; /* Alinha os itens verticalmente */
+       
+       
+    
+    }
+}
