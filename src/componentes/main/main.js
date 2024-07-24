@@ -1,5 +1,4 @@
 import imgYoutube from '../../icones/youtube.svg'
-import imgLive from '../../icones/live-youtube.svg'
 import imgPix from '../../icones/livepix.svg'
 import imgInstagram from '../../icones/instagram.svg'
 import imgTiktok from '../../icones/tik-tok.svg'
