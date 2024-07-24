@@ -3,16 +3,19 @@ import imgLive from '../../icones/live-youtube.svg'
 import imgPix from '../../icones/livepix.svg'
 import imgInstagram from '../../icones/instagram.svg'
 import imgTiktok from '../../icones/tik-tok.svg'
+import imgDiscord from '../../icones/discord.svg'
+import imgThreads from '../../icones/threads.svg'
 
 import './main.css'
 
 export default function Main (){
     const objetos = [
         {icone: imgYoutube, titulo: 'Canal principal', link:'https://www.youtube.com/@TragicoNerd' },
-        {icone: imgLive, titulo: 'Canal de Lives', link:'https://www.youtube.com/@TragicoNerdLives' },
         {icone: imgPix, titulo: 'LivePix', link:'https://livepix.gg/tragiconerd' },
+        {icone: imgDiscord, titulo: 'Discord', link:'https://discord.gg/q4NGxS8NPX' },
         {icone: imgInstagram, titulo: 'Instagram', link:'https://www.instagram.com/tragico_nerd/' },
         {icone: imgTiktok, titulo: 'TikTok', link:'https://www.tiktok.com/@tragiconerd' },
+        {icone: imgThreads, titulo: 'threads', link:'https://www.threads.net/@tragico_nerd' },
     ]
 
     let conteudo = objetos.map((item)=>{
