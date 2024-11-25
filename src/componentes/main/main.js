@@ -4,7 +4,7 @@ import imgInstagram from '../../icones/instagram.svg'
 import imgTiktok from '../../icones/tik-tok.svg'
 import imgDiscord from '../../icones/discord.svg'
 import imgThreads from '../../icones/threads.svg'
-
+import imgSteam from '../../icones/steam.svg'
 import './main.css'
 
 export default function Main (){
@@ -15,6 +15,7 @@ export default function Main (){
         {icone: imgInstagram, titulo: 'Instagram', link:'https://www.instagram.com/tragico_nerd/' },
         {icone: imgTiktok, titulo: 'TikTok', link:'https://www.tiktok.com/@tragiconerd' },
         {icone: imgThreads, titulo: 'threads', link:'https://www.threads.net/@tragico_nerd' },
+        {icone:imgSteam, titulo: 'Jogos com desconto', link:'https://tragiconerdjogos.netlify.app/'}
     ]
 
     let conteudo = objetos.map((item)=>{
