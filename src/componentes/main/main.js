@@ -15,7 +15,7 @@ export default function Main (){
         {icone: imgInstagram, titulo: 'Instagram', link:'https://www.instagram.com/tragico_nerd/' },
         {icone: imgTiktok, titulo: 'TikTok', link:'https://www.tiktok.com/@tragiconerd' },
         {icone: imgThreads, titulo: 'threads', link:'https://www.threads.net/@tragico_nerd' },
-        {icone:imgSteam, titulo: 'Jogos com desconto', link:'https://tragiconerdjogos.netlify.app/'}
+        {icone:imgSteam, titulo: 'Jogos com desconto', link:'https://tragicojogos.netlify.app/'}
     ]
 
     let conteudo = objetos.map((item)=>{
