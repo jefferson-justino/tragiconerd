@@ -11,7 +11,7 @@ export default function Main (){
     const objetos = [
         {icone: imgYoutube, titulo: 'Canal principal', link:'https://www.youtube.com/@TragicoNerd' },
         {icone: imgPix, titulo: 'LivePix', link:'https://livepix.gg/tragiconerd' },
-        {icone: imgDiscord, titulo: 'Discord', link:'https://discord.gg/q4NGxS8NPX' },
+        {icone: imgDiscord, titulo: 'Discord', link:'https://discord.gg/HPQbrVWHNU' },
         {icone: imgInstagram, titulo: 'Instagram', link:'https://www.instagram.com/tragico_nerd/' },
         {icone: imgTiktok, titulo: 'TikTok', link:'https://www.tiktok.com/@tragiconerd' },
         {icone: imgThreads, titulo: 'threads', link:'https://www.threads.net/@tragico_nerd' },
